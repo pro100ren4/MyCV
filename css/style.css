@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+/*Главная*/
+.main {
+	height: 100vh;
+	margin-left: 92px;
+
+	background: #000000;
+}
+
+.container {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+/*Сайдбар*/
+.sidenav {
+	width: 92px;
+	height: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #89490D;
+	overflow-x: hidden
+}
+
+.sidenav__block {
+	width: 100%;
+}
+
+.sidenav__block a img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/*Контент*/
+.main__flex {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 79px;
+
+	color: #FFFFFF;
+}
+
+.link_qa {
+	width: 150px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff;
+	border-radius: 26px;
+}
