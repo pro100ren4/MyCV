@@ -22,13 +22,13 @@ a {
 	height: 100vh;
 	margin-left: 92px;
 
-	background: #000000;
-	background-image: url("img/bg-pattern.png");
+	background: #000000  url("../img/bg-pattern.png") no-repeat right;
 }
 
 .container {
 	width: 100%;
-	max-width: 1100px;
+	max-width: 1200px;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -63,7 +63,12 @@ a {
 	transition: .5s;
 }
 
-.arrow_svg path:hover {
+/*.arrow_svg path:hover {
+	transition: .5s;
+	fill: #7C2600;
+}*/
+
+.hover_link:hover path {
 	transition: .5s;
 	fill: #7C2600;
 }
@@ -75,6 +80,8 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	margin-left: 10px;
 }
 
 h1 {
@@ -103,6 +110,12 @@ h1 {
 	align-items: center;
 	background: #ffffff;
 	border-radius: 26px;
+	transition: 1s;
+}
+
+.link_qa:hover {
+	transition: 1s;
+	border-radius: 10px;
 }
 
 .link_qa_left {
@@ -113,11 +126,23 @@ h1 {
 	align-items: center;
 	background: #ffffff;
 	border-radius: 26px;
+	transition: 1s;
+}
+
+.link_qa_left:hover {
+	transition: 1s;
+	border-radius: 10px;
 }
 
 
 .link_qa_text {
+	transition: 1s;
 	margin-left: 10px;
+}
+
+.link_qa_text:hover {
+	transition: 1s;
+	margin-left: 30px;
 }
 
 .link_qa_text span {
@@ -133,6 +158,12 @@ h1 {
 .link_qa_text_right {
 	text-align: right;
 	margin-right: 103px;
+	transition: 1s;
+}
+
+.link_qa_text_right:hover {
+	transition: 1s;
+	margin-right: 83px;
 }
 
 .link_qa_text_right span {
@@ -157,6 +188,10 @@ h1 {
 	color: #FFFFFF;
 }
 
+.link_text a:hover {
+	text-decoration: underline;
+}
+
 .link_text_auxiliary {
 	margin-right: 80px;
 }
@@ -170,3 +205,11 @@ h1 {
 
 	color: #FFFFFF;
 }
+
+.link_text_left a:hover {
+	text-decoration: underline;
+}
+
+/*.main__img img {
+	margin-left: 500px;
+}*/
